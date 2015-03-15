@@ -4,7 +4,7 @@ A bot that will update reddit's sidebar
 #usage  
 **sbup.help()**     
 This prompt will be printed  
-**sbup.config()**
+**sbup.config()**  
 parameters: ("user","pass", "subreddit","date")  
 subreddit and date are optional and default to  
 metalgearsolid and september 1st of this year.  
@@ -17,9 +17,9 @@ No parameters, will create the first line at the
 end of the sidebar. The exact action of this function  
 is to download the sidebar, add two spaces, a newline  
 and a GT symbol, and the "XXX days remaining. "  
-**sbup.update()**
+**sbup.update()**  
 No parameters, will manually update the number once.  
-**sbup.run()*8
+**sbup.run()**  
 No parameters. Will call update at midnight every day  
 until the day count is less than 0.  
                 
